@@ -1,0 +1,46 @@
+Healing in the Cloud: Optimising Performance for Digital Health Apps
+Project Overview
+
+Digital health applications, such as remote patient monitoring, diagnostic AI tools, and telehealth platforms, increasingly rely on cloud computing for scalability and accessibility. However, these applications often suffer from inconsistent performance due to network latency, unpredictable server loads, and resource provisioning delays—especially during peak demand or in time-critical healthcare settings. This project will explore how cloud performance variability affects digital health services and develop methods to improve responsiveness, stability, and reliability for better patient outcomes.
+
+Aims
+
+The aim is to identify and address cloud performance issues that impact the reliability and speed of digital healthcare applications, ensuring they can meet the demands of modern clinical environments.
+
+Objectives
+
+Benchmark digital health app performance under varying cloud conditions (e.g., region, load, instance type).
+Analyze key bottlenecks in latency, data throughput, and system responsiveness.
+Explore different deployment strategies (e.g., autoscaling, edge offloading, multi-region redundancy).
+Develop recommendations and automated tuning methods to optimize performance.
+Validate the impact of optimizations using realistic healthcare workload simulations.
+Significance
+
+As digital health technologies become central to modern healthcare delivery, ensuring the speed and reliability of cloud-based systems is critical. Performance slowdowns or unpredictable delays can disrupt diagnoses, delay treatment, or erode trust in digital platforms—especially in scenarios where time is crucial. By identifying and addressing the root causes of cloud performance variability, this project will help make digital health applications more dependable and responsive. The outcomes will support the safe and effective use of cloud infrastructure in delivering timely, patient-centered care at scale.
+
+
+Research experience relevant to proposed field of study
+
+When expressing your interest for an advertised project or a Collaborative PhD Program, you are required to detail what and why you are interested in this project or program specifically
+
+This project especially interests me because its objectives greatly line up with my skills, experience and career goals because I had many years of hands-on experience with developing and optimizing cloud-native applications.
+
+Even though I am working with cloud application professionally, it has always been a dream of mine to work with cloud applications academically. In professional contexts, there had been many cases where I need to do basically the same work as a researcher, includes making hypotheses and performing experiments to verify them. However, professionally, my knowledge were mostly just transferred internally and were bounded by project non-technical requirements like budget, timeline, clients' objectives, which effectively prevented me from reaching my fullest potential on my research.
+
+I really wish to have a chance to do research with my fullest potential on topics that really interest me. To be more specific, I wish to do research with less non-technical boundary and be able to widely publish and share my knowledge and experiences outside the ornganization scope.
+
+
+Briefly outline any additional information you'd like to share with your potential supervisor, such as professional or career goals, community engagement, or other relevant experiences that demonstrate your alignment with the proposed PhD research and your potential contributions beyond academic achievement. Further details should be included in your CV.
+
+
+
+
+Hi Dr Sheik Mohammad Fattah, I got to know about you and this project via your post on Linkedin. The moment I read the description, I feel that I am very suitable for this project. Even though I did not have much academic output, due to a lack of cloud-related research projects in my country, I have been working on very similar problems for several years, in many different projects, each with its distinct challenges.
+
+Cloud services has been my biggest interest since I graduated, I went on with helping different clients solving challenges with their cloud applications. A lot of my work was just as a researcher, making hypotheses on what could be the issue, or what should be the best optimization, then doing tons of experiments to verify those. However, where it fall short is that my results were not published and considered similarly to research papers, due to non-technical boundary in the professional context.
+
+One of my most recent work was to optimize a cloud-native application for up to a million users at a time. This includes identify and fix performance bottlenecks as well as perform large-scale load testing to verify the optimizations. Even worse, the system was very CPU-intensive and can barely support a hundred concurrent users without using a reasonable amount of cloud instances, that led to crashes in critical-time spikes (marketing campaigns). My first hypothesis was that it could be better with a CPU-optimized instance. However, my experiments quickly reject this even with the fastest CPU on the cloud. Finally, we needed to implement a custom caching solution which can be simply described as letting only the first worker performs the CPU-intensive work while others wait for the result. This greatly boosted the performance and the system has been stable which much less cloud resources than we anticipated. Another big challenge for me was to find a large scale load-testing method because no single machine can handle a million out-going connection at a time. This led me to develop a distributed load-testing script that run multiple parallel workers on AWS, each does a subset of the load and combine the results eventually as aggregate metrics. A lot of other things that I have worked on (like benchmarking different regions, instance types, deployment strategies, edge-optimization with cdn functions and mobile apps) align directly with the project' objectivess but are too long to mention here.
+
+I really wish to transfer my skills and knowledge onto an academic environment where I can really shine and do research with my fullest potential. If I am not selected for this project, please give me a chance to work with similar cloud-related projects, even as a research master student.
+
+Thank you for reading.
