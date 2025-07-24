@@ -23,24 +23,44 @@ Research experience relevant to proposed field of study
 
 When expressing your interest for an advertised project or a Collaborative PhD Program, you are required to detail what and why you are interested in this project or program specifically
 
-This project especially interests me because its objectives greatly line up with my skills, experience and career goals because I had many years of hands-on experience with developing and optimizing cloud-native applications.
+This project especially interests me because its objectives greatly line up with my skills, experience and career goals. I have been working on very similar problems for several years, in many different projects, each with its distinct challenges.
+Most of the work I was and am doing is to constantly monitor, identify bottlenecks, issues and optimize cloud systems with a balance between cost and performance based on clients' expections.
 
-Even though I am working with cloud application professionally, it has always been a dream of mine to work with cloud applications academically. In professional contexts, there had been many cases where I need to do basically the same work as a researcher, includes making hypotheses and performing experiments to verify them. However, professionally, my knowledge were mostly just transferred internally and were bounded by project non-technical requirements like budget, timeline, clients' objectives, which effectively prevented me from reaching my fullest potential on my research.
+For example, one of my most current achievement was to identify a CPU bottleneck in a cloud-based application after thorough benchmarking. I then resolved it via tuning different cloud parameters like instance types and counts of the autoscaling groups and led the team to implement a custom caching strategy. Finally, I implemented a large-scaled distributed load testing to assure everything was working as expected.
 
-I really wish to have a chance to do research with my fullest potential on topics that really interest me. To be more specific, I wish to do research with less non-technical boundary and be able to widely publish and share my knowledge and experiences outside the ornganization scope.
+Some of the other similar problems I have worked on were to benchmark and optimize cloud systems to support files up to terabytes in size; optimize latency and responsiveness for multi concurrent user systems via edge compute strategies like cdn functions (AWS cloudfront function, lambda at edge or cloudflare function) and caching combined with lazy loading; simulate system failures (take down systems in a region/zone) to test cloud-system resiliency and high availability.
+
+Furthermore, I do not only have the knowledge, but also the formal training from multiple cloud certifications, where I learnt the correct and idiomatic ways to do things on cloud based on the well-architected frameworks written by each cloud provider.
+
+Therefore, I believe I am a very suitable candidate for the project. I believe my participation in the project will bring a wealth of real world hands-on industry knowledge that is hard to find elsewhere. That knowledge will definitely speed up and enhance the project potential for success.
+
+For me, even though I am working with cloud application professionally, it has always been a dream of mine to work with cloud applications academically. In professional contexts, there had been many cases where I need to do basically the same work as a researcher, includes making hypotheses and performing experiments to verify them. However, professionally, my knowledge were mostly just transferred internally and were bounded by the project non-technical requirements like budget, timeline, clients' objectives, which effectively prevented me from reaching my fullest potential. I really wish to have a chance to do and publish researches with my fullest potential on topics that really interest me.
 
 
 Briefly outline any additional information you'd like to share with your potential supervisor, such as professional or career goals, community engagement, or other relevant experiences that demonstrate your alignment with the proposed PhD research and your potential contributions beyond academic achievement. Further details should be included in your CV.
 
 
+Hi Dr Sheik Mohammad Fattah, I got to know about this project via your post on Linkedin. The moment I read the description, I feel that I am very suitable for the project. Cloud services has been my biggest interest since I graduated, which motivated me to study them and apply for cloud-related jobs. How relevant my work is to the project was described in the section: Research experience relevant to proposed field of study. Just in case it didnot reach you, a copy is put at the end of this section.
 
+Beside my relevant experience, I really like your research areas. Your papers on cloud services selection and edge computing technologies like IoT and UAV are really interesting to me. Actually, I also have a lot of thoughts on cloud services selection based on different criteria and needs after years working with them, but have not have a chance to put into papers like you did.
 
-Hi Dr Sheik Mohammad Fattah, I got to know about you and this project via your post on Linkedin. The moment I read the description, I feel that I am very suitable for this project. Even though I did not have much academic output, due to a lack of cloud-related research projects in my country, I have been working on very similar problems for several years, in many different projects, each with its distinct challenges.
+I really wish to transfer my skills and knowledge onto an academic environment where I can really shine and do researches with my fullest potential. Even if I am not selected for this project, please give me a chance to participate and contribute to your researches in future cloud or edge computing projects as a research master or PhD student.
 
-Cloud services has been my biggest interest since I graduated, I went on with helping different clients solving challenges with their cloud applications. A lot of my work was just as a researcher, making hypotheses on what could be the issue, or what should be the best optimization, then doing tons of experiments to verify those. However, where it fall short is that my results were not published and considered similarly to research papers, due to non-technical boundary in the professional context.
+Thank you for reading.
+
+*NOTE: Below is just a copy of the section Research experience relevant to proposed field of study*
+Most of the work I was and am doing is to constantly monitor, identify bottlenecks, issues and optimize cloud systems with a balance between cost and performance based on clients' expections.
+
+For example, one of my most current achievement was to identify a CPU bottleneck in a cloud-based application after thorough benchmarking. I then resolved it via tuning different cloud parameters like instance types and counts of the autoscaling groups and led the team to implement a custom caching strategy. Finally, I implemented a large-scaled distributed load testing to assure everything was working as expected.
+
+Some of the other similar problems I have worked on were to benchmark and optimize cloud systems to support files up to terabytes in size; optimize latency and responsiveness for multi concurrent user systems via edge compute strategies like cdn functions (AWS cloudfront function, lambda at edge or cloudflare function) and caching combined with lazy loading; simulate system failures (take down systems in a region/zone) to test cloud-system resiliency and high availability.
+
+Furthermore, I do not only have the knowledge, but also the formal training from multiple cloud certifications, where I learnt the correct and idiomatic ways to do things on cloud based on the well-architected frameworks written by each cloud provider.
+
+Therefore, I believe I am a very suitable candidate for the project. I believe my participation in the project will bring a wealth of real world hands-on industry knowledge that is hard to find elsewhere. That knowledge will definitely speed up and enhance the project potential for success.
 
 One of my most recent work was to optimize a cloud-native application for up to a million users at a time. This includes identify and fix performance bottlenecks as well as perform large-scale load testing to verify the optimizations. Even worse, the system was very CPU-intensive and can barely support a hundred concurrent users without using a reasonable amount of cloud instances, that led to crashes in critical-time spikes (marketing campaigns). My first hypothesis was that it could be better with a CPU-optimized instance. However, my experiments quickly reject this even with the fastest CPU on the cloud. Finally, we needed to implement a custom caching solution which can be simply described as letting only the first worker performs the CPU-intensive work while others wait for the result. This greatly boosted the performance and the system has been stable which much less cloud resources than we anticipated. Another big challenge for me was to find a large scale load-testing method because no single machine can handle a million out-going connection at a time. This led me to develop a distributed load-testing script that run multiple parallel workers on AWS, each does a subset of the load and combine the results eventually as aggregate metrics. A lot of other things that I have worked on (like benchmarking different regions, instance types, deployment strategies, edge-optimization with cdn functions and mobile apps) align directly with the project' objectivess but are too long to mention here.
 
-I really wish to transfer my skills and knowledge onto an academic environment where I can really shine and do research with my fullest potential. If I am not selected for this project, please give me a chance to work with similar cloud-related projects, even as a research master student.
 
-Thank you for reading.
+However, where it fall short is that my results were not published and considered similarly to research papers, due to non-technical boundary in the professional context.
+
